@@ -26,7 +26,19 @@ namespace CardGames
 			{
 				myGame.FlipNextCard ();
 			}
+
+			if (SwinGame.KeyTyped (KeyCode.vk_RSHIFT))
+			{
+				myGame.PlayerHit(0);
+			}
+
+			if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT))
+			{
+				myGame.PlayerHit(1);
+			}
 		}
+
+			
 
 		/// <summary>
 		/// Draws the game to the Window.
