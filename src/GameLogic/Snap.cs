@@ -131,7 +131,9 @@ namespace CardGames.GameLogic
 		/// Check if the top two cards' ranks match.
 		/// </summary>
 		public void PlayerHit (int player)
-		{
+		{	
+
+			//void play_sound_effect
 			//TODO: consider deducting score for miss hits???
 			if ( player >= 0 && player < _score.Length &&  	// its a valid player
 				 IsStarted && 								// and the game is started
@@ -139,6 +141,10 @@ namespace CardGames.GameLogic
 			{
 				_score[player]++;
 				//TODO: consider playing a sound here...
+			}
+			else if (player >= 0 && player < _score.Length)
+			{
+				_score[player]--;
 			}
 
 			// stop the game...
