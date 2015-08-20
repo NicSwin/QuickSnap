@@ -1,6 +1,26 @@
 ﻿<Properties StartupItem="CardGames.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameLogic\Snap.cs">
+    <Files>
+      <File FileName="src\SnapGame.cs" Line="40" Column="25" />
+      <File FileName="src\GameLogic\Snap.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CardGames" expanded="True">
+            <Node name="CardGames" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="GameLogic" expanded="True">
+                  <Node name="Snap.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -152,8 +152,8 @@ namespace CardGames.GameLogic
 			{
 				_score[player]++;
 				//TODO: consider playing a sound here...
-				SwinGame.LoadSoundEffectNamed("Slap2", "slap2.wav");
 				SwinGame.PlaySoundEffect ("Slap2");
+				SwinGame.LoadSoundEffectNamed("Slap1", "slap1.wav");
 			}
 			else if (player >= 0 && player < _score.Length)
 			{

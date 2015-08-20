@@ -11,6 +11,7 @@ namespace CardGames
             Bitmap cards;
             cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
             SwinGame.BitmapSetCellDetails (cards, 167, 250, 13, 5, 53);      // set the cells in the bitmap to match the cards
+	
         }
 
 		/// <summary>
@@ -87,7 +88,7 @@ namespace CardGames
 			//Load the card images and set their cell details
             LoadResources();
 
-			//SwinGame.OpenAudio();
+			SwinGame.OpenAudio();
             
 			// Create the game!
 			Snap myGame = new Snap ();
