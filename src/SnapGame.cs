@@ -86,6 +86,8 @@ namespace CardGames
 
 			//Load the card images and set their cell details
             LoadResources();
+
+			//SwinGame.OpenAudio();
             
 			// Create the game!
 			Snap myGame = new Snap ();

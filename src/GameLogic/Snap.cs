@@ -143,6 +143,8 @@ namespace CardGames.GameLogic
 		{	
 
 			//void play_sound_effect
+			SwinGame.LoadSoundEffectNamed("Slap1", "slap1.wav");
+			SwinGame.PlaySoundEffect ("Slap1");
 			//TODO: consider deducting score for miss hits???
 			if ( player >= 0 && player < _score.Length &&  	// its a valid player
 				 IsStarted && 								// and the game is started
@@ -150,6 +152,8 @@ namespace CardGames.GameLogic
 			{
 				_score[player]++;
 				//TODO: consider playing a sound here...
+				SwinGame.LoadSoundEffectNamed("Slap2", "slap2.wav");
+				SwinGame.PlaySoundEffect ("Slap2");
 			}
 			else if (player >= 0 && player < _score.Length)
 			{
